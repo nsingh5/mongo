@@ -22,3 +22,15 @@ filesystem snapshot- do not impact  r/w operations (hot backup)
 
 
 ![image](https://user-images.githubusercontent.com/10362252/210093497-17953aa3-057b-4483-b224-4429b31dabc7.png)
+
+
+### Replication/replica set
+docker network create mongoCluster
+
+docker run -d --rm -p 27017:27017 --name mongo1 --network mongoCluster mongo mongod --replSet myReplicaSet --bind_ip localhost,mongo1
+
+docker run -d --rm -p 27018:27017 --name mongo2 --network mongoCluster mongo mongod --replSet myReplicaSet --bind_ip localhost,mongo2
+
+docker run -d --rm -p 27019:27017 --name mongo3 --network mongoCluster mongo mongod --replSet myReplicaSet --bind_ip localhost,mongo3
+
+https://www.mongodb.com/compatibility/deploying-a-mongodb-cluster-with-docker
