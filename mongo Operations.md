@@ -67,3 +67,9 @@ range/hash
 simple/compound
 
 https://www.google.com/search?q=shard+key+mongodb&rlz=1C5GCEA_enIN965IN966&sxsrf=ALiCzsYm1h996bl-lywEunTfAX9vpBCqQg:1672575924452&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjKz9jurqb8AhWb3jgGHbhlANsQ_AUoA3oECAIQBQ&biw=1280&bih=586&dpr=2#fpstate=ive&vld=cid:0053525e,vid:NjvyFmuuRM4
+
+
+
+
+### Storage Engine
+https://www.mongodb.com/docs/manual/core/storage-engines/
