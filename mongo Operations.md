@@ -9,8 +9,8 @@ bin/mongofiles -d troublecode put /Users/narendrasingh/Downloads/pkpadmi.pdf
 
 ### Data Backup and Restoration in MongoDB:
 
-1)logical - mongo dump
-2) physical -snapshots
+1. logical - mongo dump
+2. physical -snapshots
 
 
 mongodump/mongorestore - impact db r/w operations/traffic
@@ -46,20 +46,14 @@ https://github.com/justmeandopensource/learn-mongodb/blob/master/sharding/00-set
 shard key:
 
 (write)
-
-  high cardinality
-  
-  low freq
-  
-  no monotonically increase
++ high cardinality
++ low freq
++ no monotonically increase
   
 (read)
-
-  part of each doc.
-  
-  part of each query
-  
-  read isolation
++ part of each doc.
++ part of each query
++ read isolation
   
 https://university.mongodb.com/videos/y/-J7wzsdl9GE
 
