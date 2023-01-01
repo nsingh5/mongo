@@ -41,3 +41,29 @@ https://www.mongodb.com/compatibility/deploying-a-mongodb-cluster-with-docker
 https://www.youtube.com/watch?v=Rwg26U0Zs1o&list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps&index=9
 
 https://github.com/justmeandopensource/learn-mongodb/blob/master/sharding/00-setup-sharding-doc.md
+
+
+shard key:
+
+(write)
+
+  high cardinality
+  
+  low freq
+  
+  no monotonically increase
+  
+(read)
+
+  part of each doc.
+  
+  part of each query
+  
+  read isolation
+  
+https://university.mongodb.com/videos/y/-J7wzsdl9GE
+
+range/hash
+simple/compound
+
+https://www.google.com/search?q=shard+key+mongodb&rlz=1C5GCEA_enIN965IN966&sxsrf=ALiCzsYm1h996bl-lywEunTfAX9vpBCqQg:1672575924452&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjKz9jurqb8AhWb3jgGHbhlANsQ_AUoA3oECAIQBQ&biw=1280&bih=586&dpr=2#fpstate=ive&vld=cid:0053525e,vid:NjvyFmuuRM4
