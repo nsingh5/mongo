@@ -34,3 +34,10 @@ docker run -d --rm -p 27018:27017 --name mongo2 --network mongoCluster mongo mon
 docker run -d --rm -p 27019:27017 --name mongo3 --network mongoCluster mongo mongod --replSet myReplicaSet --bind_ip localhost,mongo3
 
 https://www.mongodb.com/compatibility/deploying-a-mongodb-cluster-with-docker
+
+
+### sharding
+
+https://www.youtube.com/watch?v=Rwg26U0Zs1o&list=PL34sAs7_26wPvZJqUJhjyNtm7UedWR8Ps&index=9
+
+https://github.com/justmeandopensource/learn-mongodb/blob/master/sharding/00-setup-sharding-doc.md
